@@ -226,6 +226,9 @@
   float: right
 }
 
+
+
+
 .html,
 .invisible {
   display: none
@@ -496,6 +499,7 @@
 .compose .forms .group textarea {
   color: #fff;
   border: none;
+
   resize: none;
   min-width: 185px;
   background: 0 0;
@@ -506,10 +510,14 @@
 .compose .forms .visible {
   width: 100%;
   display: block!important
+
+
+
 }
 
 .compose .forms .action {
   margin-top: 50px
+
 }
 
 .compose .forms .group:nth-child(1) {
