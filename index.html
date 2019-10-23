@@ -22,6 +22,8 @@
 <link rel="stylesheet" href="css/flaticon.css">
 <link rel="stylesheet" href="css/icomoon.css">
 <link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="css/afterbefore.css">
 </head>
 <body>
 <nav id="navbar" class="navbar">
@@ -236,8 +238,25 @@
 </div>
 </div>
 </section>
+<!--added now -->
+<section id="beforeafter" class="ftco-section">
+<div class="container">
+  <div class= "row justify-content-center">
+    <div id="comparison">
+      <figure id="original">
+        <h1>Original</h1>
+      </figure>
+      <figure id="changed"> 
+        <div><h1>Sketch</h1></div>
+      </figure>
+      <input type="range" min="0" max="155" value="75" id="slider" oninput="moveDivisor()">
+    </div>
+    <h1> Scroll the dot to compare Original and Sketch</h1>
+  </div>
+</div>
 
-
+</section>
+<!--added now ends here-->
 <section id="work" class="ftco-section">
 <div class="container">
 <div class="row justify-content-center">
@@ -633,6 +652,7 @@ Copyright &copy;<script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd
 <script src="../../../../external.html?link=https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
 <script src="js/google-map.js"></script>
 <script src="js/main.js"></script>
+<script src="js/afterbefore.js"></script>
 
 <!--<script async src="../../../../external.html?link=https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
 <script>
