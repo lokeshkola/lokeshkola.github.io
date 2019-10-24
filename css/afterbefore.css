@@ -20,7 +20,7 @@
   height: 100%;
 }
 #comparison #original h1 {
-  position: absolute;
+  position: top;
   color: #9BB3D7;
   z-index: auto;
   top: 0;
@@ -28,7 +28,7 @@
   right: 20vw;
   margin: auto 0;
   height: 1em;
-  font-size: 10em;
+  font-size: 5em;
 }
 /*The left image container which holds the left image*/
 #comparison #changed {
@@ -59,7 +59,7 @@
   bottom: 0;
   margin: auto 0;
   height: 1em;
-  font-size: 10em;
+  font-size: 5em;
 }
 /*
  RANGE STYLE
