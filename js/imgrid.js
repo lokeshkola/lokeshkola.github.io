@@ -33,7 +33,7 @@ $('.nkh-grid-item').hover(
 				bgPos = 'bottom right';
 			}
 
-			$('<img/>').addClass('nkh-grid-item-img-replacement').attr({ src: '//nikonusa.com/en_US/IMG/Images/CPCAssets/homepage/img/grid/' + imgSetId + '-full.jpg'}).appendTo($('.nkh-grid-item-media', $(par))).delay(step * 100).fadeIn(250);
+			$('<img/>').addClass('nkh-grid-item-img-replacement').attr({ src: 'https://lokeshkola.github.io/images/' + imgSetId + '-full.jpg'}).appendTo($('.nkh-grid-item-media', $(par))).delay(step * 100).fadeIn(250);
 
 		});
 
