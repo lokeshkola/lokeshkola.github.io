@@ -2,8 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC);
 /*wrapper that holds both of the images*/
 #comparison {
-  height: 60vw;
-  width: 100%;
+  height: 30vw;
+  width: 50%;
   margin: 0;
   overflow: hidden;
   position: relative;
@@ -38,7 +38,7 @@
   height: 100%;
   overflow: hidden;
   display: inline-block;
-  border-right: 20px solid #B5482A;
+  border-right: 10px solid #B5482A;
   transform: skewX(-30deg) translate(-35vw);
   /*Skew the image for the angle and move #changed so you don't see the left angle*/
 }
@@ -52,12 +52,11 @@
   /*Make the image square and translate it back so that it matchs the right image*/
 }
 #comparison #changed h1 {
-  position: absolute;
+  position: top;
   color: #9BB3D7;
   z-index: 9999;
   top: 0;
   bottom: 0;
-  left: 20vw;
   margin: auto 0;
   height: 1em;
   font-size: 10em;
