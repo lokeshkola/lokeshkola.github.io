@@ -71,7 +71,7 @@ input[type=range] {
   top: -5em;
   left: -2%;
   background-color: rgba(155, 179, 215, 0.002);
-  width: 102%;
+  width: 99%;
 }
 input[type=range]:focus {
   outline: none;
